@@ -1,0 +1,5 @@
+com\gmg\linktest\controller\LinkTestController.class
+com\gmg\linktest\service\LinkTestService.class
+com\gmg\linktest\DAO\LinkTestDAO.class
+com\gmg\linktest\LinkTestApp.class
+com\gmg\linktest\model\MessageDTO.class
