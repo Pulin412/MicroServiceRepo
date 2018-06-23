@@ -55,7 +55,7 @@ public class AccountsController {
         Application application = this.eurekaClient.getApplication(this.employeeSearchServiceId);
         InstanceInfo instanceInfo = application.getInstances().get(0);
 
-        String url = "http://" + instanceInfo.getIPAddr() + ":" + instanceInfo.getPort() + "/" + "getAllEmployees";
+        String url = "http://" + instanceInfo.getIPAddr() + ":" + instanceInfo.getPort() + "/" + "empRest" + "/" + "getAllEmployees";
         System.out.println("URL - " + url);
 
         List<MediaType> acceptableMediaTypes = new ArrayList<MediaType>();
